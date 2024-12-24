@@ -1,0 +1,97 @@
+/* src/App.css */
+/* 
+.App {
+  text-align: center;
+}
+
+.movie-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter input {
+  margin-right: 10px;
+  padding: 5px;
+  width: 150px;
+}
+
+.filter button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+ */
+
+/*  */
+
+/* src/App.css */
+.movie-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.movie-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  margin: 0;
+}
+
+.movie-details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-details iframe {
+  width: 50%;
+  height: 315px;
+  border-radius: 20px;
+}
+
+.back-to-home {
+  margin-top: 20px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.viewDetailsBtn {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  /* background-color: #007bff; */
+  text-decoration: none;
+  text-align: left;
+  border-radius: 20px;
+  border: 1px solid #007bff;
+}
